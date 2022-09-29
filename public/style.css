@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
+
+body {
+    background-color: #003F5C;
+    box-sizing: border-box;
+    margin: 20px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+input,button {
+    font-family: 'Vollkorn', serif;
+    outline: none;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 14px;
+    border: none;
+    margin: 10px;
+    font-size: 16px;
+}
+hr {
+    width: 80%;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(252, 252, 252);
+}
+button:hover{
+    color: aliceblue;
+    background-color: rgb(98, 87, 87);
+}
+/* #90daf7 */
+
+.main-container {
+ margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    background: #393E46;
+    border-radius: 10px;
+    color: #eeeeee;
+    box-shadow: 11px 9px 14px 1px rgba(0,0,0,0.75);
+}
+
+.title-desc{
+    text-align: center;
+}
+
+.img-tool {
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.image-div {
+    text-align: center;
+}
+
+.tools {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0 auto;
+}
+
+.fileupload{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color:#d3d7d7;
+
+}
+
+.filedownload{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#upload-button{
+    cursor: pointer;
+    background-color: bisque;
+}
+
+.green {
+    background-color: bisque;
+    cursor: pointer;
+}
+
+.gray {
+    background-color: gainsboro;
+    cursor: pointer;
+}
+
+#uploadWordID{
+   color: rgb(185, 42, 42);
+   font-size: 16px;
+   width: 58%;
+}
+#userEmailID{
+    width: 80%;
+}
+input[type=file]::file-selector-button{
+    background-color: bisque;
+    cursor: pointer;
+    padding:10px ;
+    border:none;
+    border-radius: 8px;
+}
+.fa1{
+    margin-left:10%;
+    margin-right: 6%;
+    margin-bottom: 10%;
+}
+.fa2{
+    margin-right:10%;
+    margin-left: 6%;
+    margin-bottom: 10%;
+}
+.fa-arrow-right{
+    margin-bottom: 10%;
+}
+.container-fluid{
+    color: #eeeeee;
+    text-align: center;
+}
+.github,.linkedin,.email{
+    color: #eeeeee;
+
+}
